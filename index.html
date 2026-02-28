@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  
+  <!-- Preconnect pour améliorer les performances -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  
+  <!-- DNS Prefetch -->
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  
+  <!-- Meta SEO de base (seront écrasées par le composant SEO de React) -->
+  <meta name="description" content="Conciergerie Airbnb digitale à 239€/mois. Gestion complète de votre location courte durée partout en France et DOM-TOM. Tarification dynamique, multi-plateformes, 7j/7.">
+  <meta name="keywords" content="conciergerie airbnb, gestion location courte durée, conciergerie digitale, gestion airbnb, 239 euros">
+  <meta name="author" content="Les Clés du Cabanon">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  
+  <!-- Géolocalisation -->
+  <meta name="geo.region" content="FR">
+  <meta name="geo.placename" content="France">
+  <meta name="language" content="FR">
+  
+  <!-- Mobile -->
+  <meta name="theme-color" content="#14b8a6">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Les Clés du Cabanon">
+  <meta name="mobile-web-app-capable" content="yes">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="alternate icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.clesducabanon.fr/">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.clesducabanon.fr/">
+  <meta property="og:site_name" content="Les Clés du Cabanon">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Conciergerie Airbnb 239€/mois | France & DOM-TOM">
+  <meta property="og:description" content="Gestion Airbnb digitale 239€/mois partout en France. Tarification dynamique, multi-plateformes, 7j/7. Économisez 8000€/an.">
+  <meta property="og:image" content="https://www.clesducabanon.fr/og-image.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Conciergerie Airbnb 239€/mois | France & DOM-TOM">
+  <meta name="twitter:description" content="Gestion Airbnb digitale 239€/mois partout en France. Tarification dynamique, multi-plateformes, 7j/7.">
+  <meta name="twitter:image" content="https://www.clesducabanon.fr/og-image.jpg">
+  
+  <!-- Performance hints -->
+  <link rel="preload" as="style" href="/src/styles/index.css">
+  
+  <title>Conciergerie Airbnb 239€/mois | France & DOM-TOM</title>
+  
+  <!-- Structured Data - Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Les Clés du Cabanon",
+    "url": "https://www.clesducabanon.fr",
+    "logo": "https://www.clesducabanon.fr/logo.png",
+    "description": "Conciergerie Airbnb digitale à 239€/mois. Gestion complète de votre location courte durée partout en France et DOM-TOM.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "FR"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+33-6-25-40-14-80",
+      "email": "contact@lesclesducabanon.fr",
+      "contactType": "customer service",
+      "availableLanguage": ["French"],
+      "areaServed": ["FR", "GP", "MQ", "GF", "RE", "YT"]
+    },
+    "priceRange": "239€"
+  }
+  </script>
+</head>
+<body>
+  <noscript>
+    <div style="padding: 20px; text-align: center; background: #fef3c7; color: #92400e;">
+      <strong>JavaScript est requis</strong><br>
+      Ce site nécessite JavaScript pour fonctionner correctement. Veuillez l'activer dans votre navigateur.
+    </div>
+  </noscript>
+  
+  <div id="root"></div>
+  
+  <script type="module" src="/src/app/main.tsx"></script>
+</body>
+</html>
